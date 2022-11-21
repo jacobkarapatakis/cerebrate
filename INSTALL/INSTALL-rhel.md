@@ -6,7 +6,8 @@
 ## Prerequisites
 >Install needed packages:
 ```Shell
-dnf install @httpd mariadb-server git @php unzip sqlite vim wget  php-intl php-ldap php-mysqlnd php-pdo php-zip
+dnf install @httpd mariadb-server git unzip sqlite vim wget \
+            @php:8.0 php-intl php-ldap php-mysqlnd php-pdo php-zip php-common
 ```
 ## Install composer 
 >Instructions taken from https://getcomposer.org/download/
